@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObsidianWorldConverter", "ObsidianWorldConverter.csproj", "{482F9349-57D1-42C9-A6CC-99677073A480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{482F9349-57D1-42C9-A6CC-99677073A480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482F9349-57D1-42C9-A6CC-99677073A480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482F9349-57D1-42C9-A6CC-99677073A480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482F9349-57D1-42C9-A6CC-99677073A480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C092248-E574-4C69-9ED2-1CF699010B22}
+	EndGlobalSection
+EndGlobal
