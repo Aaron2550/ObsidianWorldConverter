@@ -47,7 +47,7 @@ namespace ObsidianWorldConverter {
 
 			Directory.EnumerateFiles(WorkDirectory).AsParallel().WithDegreeOfParallelism(ProcessorCount).ForAll(FilePath => {
 				FileStream RegionFileStream = File.OpenRead(FilePath);
-				MemoryStream UncompressedFileData = new();
+				using MemoryStream UncompressedFileData = new();
 
 				switch (FormatFrom) {
 					case Format.None:
